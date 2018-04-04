@@ -19,5 +19,6 @@ public class SarungAksi {
         Wadimor.Asal="Minangkabau";
         Wadimor.Warna=3.4;
         
+        Wadimor.SebagaiAlatSholatdanPenutupAurat();
     }
 }
