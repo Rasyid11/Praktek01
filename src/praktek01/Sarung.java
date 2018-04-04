@@ -10,5 +10,17 @@ package praktek01;
  * @author Rasyid
  */
 public class Sarung {
+    String Merk;
+    String Bahan;
+    String Motif;
+    String Asal;
+    double Warna;
     
+    void SebagaiAlatSholatdanPenutupAurat(){
+        System.out.println("Merk     :"+Merk);
+        System.out.println("Bahan    :"+Bahan);
+        System.out.println("Motif    :"+Motif);
+        System.out.println("Asal     :"+Asal);
+        System.out.println("Warna    :"+Warna);
+    }
 }
