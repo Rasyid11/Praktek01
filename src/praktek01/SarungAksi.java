@@ -12,5 +12,12 @@ package praktek01;
 public class SarungAksi {
     public static void main(String[] args) {
         Sarung Wadimor = new Sarung();
+        
+        Wadimor.Merk="Wadimor";
+        Wadimor.Bahan="Songket";
+        Wadimor.Motif="Bunga";
+        Wadimor.Asal="Minangkabau";
+        Wadimor.Warna=3.4;
+        
     }
 }
