@@ -14,7 +14,7 @@ public class Sarung {
     String Bahan;
     String Motif;
     String Asal;
-    double Warna;
+    String Warna;
     
     void SebagaiAlatSholatdanPenutupAurat(){
         System.out.println("Merk     :"+Merk);

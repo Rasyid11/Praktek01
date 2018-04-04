@@ -11,14 +11,34 @@ package praktek01;
  */
 public class SarungAksi {
     public static void main(String[] args) {
-        Sarung Wadimor = new Sarung();
+        Sarung Hasan = new Sarung();
         
-        Wadimor.Merk="Wadimor";
-        Wadimor.Bahan="Songket";
-        Wadimor.Motif="Bunga";
-        Wadimor.Asal="Minangkabau";
-        Wadimor.Warna=3.4;
+        Hasan.Merk="Wadimor";
+        Hasan.Bahan="Songket";
+        Hasan.Motif="Bunga";
+        Hasan.Asal="Minangkabau";
+        Hasan.Warna="Orange dan Kuning";
         
-        Wadimor.SebagaiAlatSholatdanPenutupAurat();
+        Hasan.SebagaiAlatSholatdanPenutupAurat();
+        
+        Sarung Rasid = new Sarung();
+        
+        Rasid.Merk="GajahDuduk";
+        Rasid.Bahan="Tenun";
+        Rasid.Motif="Kotak-Kotak";
+        Rasid.Asal="Samarinda";
+        Rasid.Warna="Merah dan Coklat";
+        
+        Rasid.SebagaiAlatSholatdanPenutupAurat();
+        
+        Sarung Bapak = new Sarung();
+        
+        Bapak.Merk="Atlass";
+        Bapak.Bahan="Tapis";
+        Bapak.Motif="Garis-garis";
+        Bapak.Asal="Lampung";
+        Bapak.Warna="Biru dan Hijau";
+        
+        Bapak.SebagaiAlatSholatdanPenutupAurat();
     }
 }
